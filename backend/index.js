@@ -196,6 +196,9 @@ app.get('/allPositions',async(req,res)=>{
     res.json(allPositions);
 });
 
+app.post('/newOrder',async(req,res)=>{
+    
+})
 
 mongoose.connect(uri)
     .then(() => {
