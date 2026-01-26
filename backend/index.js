@@ -197,8 +197,8 @@ app.get('/allPositions',async(req,res)=>{
 });
 
 app.post('/newOrder',async(req,res)=>{
-    
-})
+     
+});
 
 mongoose.connect(uri)
     .then(() => {
